@@ -1256,7 +1256,7 @@ $lang['acs_expense_categories'] = 'Catégories dépenses';
 # Dépenses
 $lang['expense_category']                             = 'Catégorie d\'dépenses';
 $lang['expense_category_lowercase']                   = 'catégorie d\'dépenses';
-$lang['new_expense']                                  = 'Enregistrer un dépenses';
+$lang['new_expense']                                  = 'Enregistrer une dépense';
 $lang['expense_add_edit_name']                        = 'Nom de l\'dépenses';
 $lang['expense_add_edit_description']                 = 'Description';
 $lang['expense_categories']                           = 'Catégories d\'dépenses';
@@ -3602,19 +3602,20 @@ $lang['tags_update_replace_warning'] = 'Some tags are not updated because the na
 $lang['attach_statement']            = 'Attach Customer Statement';
 
 # Version 2.4.0
-$lang['delete_credit_card']                        = 'Delete Card';
-$lang['delete_credit_card_info']                   = 'You cannot delete the credit card as you have active subscriptions.';
-$lang['credit_card_successfully_deleted']          = 'Credit card successfully deleted.';
-$lang['subscription_incomplete']                   = 'Incomplete';
-$lang['subscription_incomplete_expired']           = 'Incomplete Expired';
-$lang['credit_card_short']                         = 'Card';
-$lang['webhook_created']                           = 'Webhook created successfully.';
-$lang['subscriptions_terms_info']                  = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
-$lang['subscription_complete_payment']             = 'Complete Payment';
-$lang['subscription_is_subscription_is_expired']   = 'This subscription is expired.';
-$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
-$lang['subscription_first_billing_date_info']      = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
-$lang['stripe_subscription_select_plan']           = 'Select Stripe plan';
+$lang['delete_credit_card']                        = 'Carte de crédit supprimée';
+$lang['delete_credit_card_info']                   = 'Vous ne pouvez pas supprimer la carte de crédit car vous avez des abonnements actifs.';
+$lang['credit_card_successfully_deleted']          = 'La carte de crédit a bien été supprimée.';
+$lang['subscription_incomplete']                   = 'souscription incomplète';
+$lang['subscription_incomplete_expired']           = 'souscription incomplète a expirée';
+$lang['credit_card_short']                         = 'Numéro de carte de crédit trop court';
+$lang['webhook_created']                           = 'Webhook créé avec succès.';
+$lang['subscriptions_terms_info']                  = 'Saisissez les conditions générales du client à afficher au client avant de souscrire à l\'abonnement.';
+$lang['subscription_complete_payment']             = 'Paiement complet';
+$lang['subscription_is_subscription_is_expired']   = 'Cet abonnement a expiré.';
+$lang['subscription_plan_currency_does_not_match'] = 'La devise du plan sélectionnée ne correspond pas à la devise sélectionnée ci-dessous.';
+$lang['subscription_first_billing_date_info']      = 'Laissez vide pour utiliser la date à laquelle le client est abonné à l\'abonnement. Ce champ doit être une date future, si vous sélectionnez la date et que la date est passée mais que le client n\'est pas encore abonné, la date à laquelle le client s\'abonnera sera utilisée.';
+$lang['stripe_subscription_select_plan']           = 'Sélectionnez le plan Stripe
+';
 
 # Version 2.4.1
 $lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
